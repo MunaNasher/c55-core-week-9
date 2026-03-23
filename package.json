@@ -1,7 +1,7 @@
 {
   "name": "core-assignment-week-9",
   "version": "1.0.0",
-  "description": "",
+  "description": "Install dependencies (run this once from the repository root):",
   "main": "index.js",
   "scripts": {
     "start": "node task-1/server/server.js",
@@ -21,5 +21,16 @@
     "chalk": "^5.6.2",
     "express": "^5.2.1",
     "morgan": "^1.10.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackYourAssignment/c55-core-week-9.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HackYourAssignment/c55-core-week-9/issues"
+  },
+  "homepage": "https://github.com/HackYourAssignment/c55-core-week-9#readme"
 }
