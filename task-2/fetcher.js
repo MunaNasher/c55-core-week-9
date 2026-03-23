@@ -13,3 +13,8 @@ export async function fetchNobelPrizes({ year = 'all', category = 'all', offset 
   const response = await fetch(url.toString());
   return response.json();
 }
+
+
+
+
+// Temporary change to activate PR
